@@ -1,3 +1,5 @@
+.svelte-kit
+.env
 # Logs
 logs
 *.log
