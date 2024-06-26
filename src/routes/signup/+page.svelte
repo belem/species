@@ -24,3 +24,9 @@
 		/>
 	</div>
 </div>
+
+<div class="row flex-center flex">
+	<div class="col-6 form-widget">
+		<a href="/signin">登录</a> <a href="/">返回首页</a>
+	</div>
+</div>
