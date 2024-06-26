@@ -17,6 +17,7 @@
 			supabaseClient={data.supabase}
 			view="sign_in"
 			redirectTo={`${data.url}/auth/callback`}
+			localization={{ variables: zh }}
 			showLinks={false}
 			appearance={{ theme: ThemeSupa, style: { input: 'color: #fff' } }}
 		/>
