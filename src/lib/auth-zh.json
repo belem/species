@@ -11,7 +11,7 @@
     },
     "sign_in": {
         "email_label": "电子邮件",
-        "password_label": "你的密码",
+        "password_label": "您的密码",
         "email_input_placeholder": "您的电子邮件地址",
         "password_input_placeholder": "您的密码",
         "button_label": "登录",
