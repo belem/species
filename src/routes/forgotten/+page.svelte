@@ -7,18 +7,17 @@
 </script>
 
 <svelte:head>
-	<title>首页</title>
+	<title>首页 - 忘记密码</title>
 </svelte:head>
 
 <div class="row flex-center flex">
 	<div class="col-6 form-widget">
 		<Auth
 			supabaseClient={data.supabase}
-			view="sign_in"
+			view="forgotten_password"
 			redirectTo={`${data.url}/auth/callback`}
 			showLinks={false}
 			appearance={{ theme: ThemeSupa, style: { input: 'color: #fff' } }}
 		/>
 	</div>
-	<a href="signup">注册新用户</a> <a href="forgotten">忘记密码</a>
 </div>

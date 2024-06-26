@@ -21,7 +21,7 @@
 </script>
 
 <svelte:head>
-	<title>用户管理</title>
+	<title>物种起源</title>
 </svelte:head>
 
 <div class="container" style="padding: 50px 0 100px 0">
