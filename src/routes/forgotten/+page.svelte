@@ -2,6 +2,7 @@
 <script lang="ts">
 	import { Auth } from '@supabase/auth-ui-svelte'
 	import { ThemeSupa } from '@supabase/auth-ui-shared'
+	import * as zh from '../lib/auth-zh.json'
 
 	export let data
 </script>
@@ -16,6 +17,7 @@
 			supabaseClient={data.supabase}
 			view="forgotten_password"
 			redirectTo={`${data.url}/auth/callback`}
+			localization={{ variables: zh }}
 			showLinks={false}
 			appearance={{ theme: ThemeSupa, style: { input: 'color: #fff' } }}
 		/>

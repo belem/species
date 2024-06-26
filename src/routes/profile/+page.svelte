@@ -80,6 +80,8 @@
 		</div>
 	</form>
 
+	<a href="/" title="返回首页">首页</a>
+
 	<form method="post" action="?/signout" use:enhance={handleSignOut}>
 		<div>
 			<button class="button block" disabled={loading}>注销</button>
