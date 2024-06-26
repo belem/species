@@ -2,7 +2,7 @@
 <script lang="ts">
 	import { Auth } from '@supabase/auth-ui-svelte'
 	import { ThemeSupa } from '@supabase/auth-ui-shared'
-	import * as zh from '../lib/auth-zh.json'
+	import * as zh from '../../lib/auth-zh.json'
 
 	export let data
 </script>
