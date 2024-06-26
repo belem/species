@@ -7,7 +7,7 @@
 </script>
 
 <svelte:head>
-	<title>User Management</title>
+	<title>用户管理</title>
 </svelte:head>
 
 <div class="row flex-center flex">

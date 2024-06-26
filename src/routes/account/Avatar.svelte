@@ -68,7 +68,7 @@
 	{#if avatarUrl}
 		<img
 			src={avatarUrl}
-			alt={avatarUrl ? 'Avatar' : 'No image'}
+			alt={avatarUrl ? '头像' : '无头像'}
 			class="avatar image"
 			style="height: {size}em; width: {size}em;"
 		/>
@@ -79,7 +79,7 @@
 
 	<div style="width: {size}em;">
 		<label class="button primary block" for="single">
-			{uploading ? 'Uploading ...' : 'Upload'}
+			{uploading ? '上传中 ...' : '上传'}
 		</label>
 		<input
 			style="visibility: hidden; position:absolute;"

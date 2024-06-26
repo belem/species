@@ -21,7 +21,7 @@
 </script>
 
 <svelte:head>
-	<title>User Management</title>
+	<title>用户管理</title>
 </svelte:head>
 
 <div class="container" style="padding: 50px 0 100px 0">

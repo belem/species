@@ -56,17 +56,17 @@
 		</div>
 
 		<div>
-			<label for="fullName">Full Name</label>
+			<label for="fullName">全名</label>
 			<input id="fullName" name="fullName" type="text" value={form?.fullName ?? fullName} />
 		</div>
 
 		<div>
-			<label for="username">Username</label>
+			<label for="username">用户名</label>
 			<input id="username" name="username" type="text" value={form?.username ?? username} />
 		</div>
 
 		<div>
-			<label for="website">Website</label>
+			<label for="website">网站</label>
 			<input id="website" name="website" type="url" value={form?.website ?? website} />
 		</div>
 
@@ -74,7 +74,7 @@
 			<input
 				type="submit"
 				class="button block primary"
-				value={loading ? 'Loading...' : 'Update'}
+				value={loading ? '加载中...' : '更新'}
 				disabled={loading}
 			/>
 		</div>
@@ -82,7 +82,7 @@
 
 	<form method="post" action="?/signout" use:enhance={handleSignOut}>
 		<div>
-			<button class="button block" disabled={loading}>Sign Out</button>
+			<button class="button block" disabled={loading}>注销</button>
 		</div>
 	</form>
 </div>
