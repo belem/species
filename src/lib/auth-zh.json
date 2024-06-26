@@ -12,7 +12,7 @@
     "sign_in": {
         "email_label": "电子邮件",
         "password_label": "密码",
-        "email_input_placeholder": "您的电子邮件地址",
+        "email_input_placeholder": "您的邮件地址",
         "password_input_placeholder": "您的密码",
         "button_label": "登录",
         "loading_button_label": "登录中 ...",
@@ -21,7 +21,7 @@
     },
     "magic_link": {
         "email_input_label": "电子邮件",
-        "email_input_placeholder": "您的电子邮件地址",
+        "email_input_placeholder": "您的邮件地址",
         "button_label": "魔法链接",
         "loading_button_label": "魔法链接发送中 ...",
         "link_text": "发送魔法链接到您的邮箱"
@@ -29,7 +29,7 @@
     "forgotten_password": {
         "email_label": "电子邮件",
         "password_label": "密码",
-        "email_input_placeholder": "您的电子邮件地址",
+        "email_input_placeholder": "您的邮件地址",
         "button_label": "发送重置密码",
         "loading_button_label": "正在发送重置密码 ...",
         "link_text": "忘记密码？"
