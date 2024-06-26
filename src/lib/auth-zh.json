@@ -2,7 +2,7 @@
     "sign_up": {
         "email_label": "电子邮件",
         "password_label": "创建密码",
-        "email_input_placeholder": "您的电子邮件地址",
+        "email_input_placeholder": "您的邮件地址",
         "password_input_placeholder": "您的密码",
         "button_label": "注册",
         "loading_button_label": "注册中 ...",
@@ -11,7 +11,7 @@
     },
     "sign_in": {
         "email_label": "电子邮件",
-        "password_label": "您的密码",
+        "password_label": "密码",
         "email_input_placeholder": "您的电子邮件地址",
         "password_input_placeholder": "您的密码",
         "button_label": "登录",
@@ -28,7 +28,7 @@
     },
     "forgotten_password": {
         "email_label": "电子邮件",
-        "password_label": "您的密码",
+        "password_label": "密码",
         "email_input_placeholder": "您的电子邮件地址",
         "button_label": "发送重置密码",
         "loading_button_label": "正在发送重置密码 ...",
@@ -36,7 +36,7 @@
     },
     "update_password": {
         "password_label": "新密码",
-        "password_input_placeholder": "您的新密码",
+        "password_input_placeholder": "更新新密码",
         "button_label": "密码重置",
         "loading_button_label": "密码更新中 ..."
     }
